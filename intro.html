@@ -1,0 +1,181 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<style>
+	*{
+		text-decoration: none;
+	}
+	body{
+		background: url("cat2.JPG");
+		background-size: 100% 100%;
+		background-repeat: no-repeat;
+		margin-left: 20px;
+		margin-right: 20px;
+		text-decoration: none;
+		list-style: none;
+	}
+	.wrapper {
+	margin: 0 auto 0 60px;
+	width: 1000px;
+}
+	h1, h2, h3, p, li{
+		color: black;
+	}
+	img{
+		height: 15%;
+		width: 15%;
+	}
+	#menu {
+		background: lightgoldenrodyellow;
+		height: 70%;
+		width: 100%;
+	}
+	#menu li {
+		float: lefyt;
+		display: inline;
+		position: relative;
+	}
+	#menu a {
+		font-family: Times,Times New Roman,Georgia,serif ;
+		font-weight: bold;
+		display: block;
+		line-height: 70px;
+		padding: 0 14px;
+		text-decoration: none;
+		color: yellow;
+		font-size: 20px;
+		text-transform: uppercase;
+	}
+	#menu li a:hover {
+		color: orange;
+		background: purple;
+		transition: 0.5s;
+		border-radius: 50px;
+
+	}
+    }
+    #menu li:hover ul.sub-menus {
+    	display: block;
+    }
+    #menu input {
+    	display: none;
+    	margin: 0;
+    	padding: 0;
+    	height: 70px;
+    	opacity: 0;
+    	cursor: pointer;
+
+
+    }
+    #menu label {
+    	display: none;
+    	line-height: 70px;
+    	text-align: absolute;
+    	left: 35px;
+    }
+    #menu label:before {
+    	font-size: 1.6em;
+    	content: "\2261";
+    	margin-left: 20px;
+    }
+    @media screen and (max-width: 800px){
+    	#menu {
+    		position:relative;
+    	}
+    	#menu url
+    	{background: purple;
+    		position: absolute;
+    		top:100%;
+    		right: 0;
+    		left: 0;
+    		z-index: 3;
+    		height: auto;
+    		display: none;
+
+    	}
+    	#menu li{display: block;
+    		float: none;
+    		width: auto;
+    }
+    #menu input, #menu label {
+    	position: absolute;
+    	top: 0;
+    	left: 0;
+    	display: block;
+    }
+}
+</style>
+<body>
+	<center>
+		<img src="3.JPG">
+		<img src="4.JPG">
+		<h2>NORTH LUZON PHILIPPINES STATE COLLEGE</h2>
+		<h2>San Nicolas, Candon City Ilocos Sur</h2>
+	</center>
+	<nav id="menu">
+		<input type='checkbox' id='responsive-menu' onclick='updatemenu()'><label></label>
+	</nav>
+	<div class="wrapper">
+	<nav>
+		
+		<ul>
+			<font face="arial">
+				<li><a href='Login.html'>Login</a></li>
+					
+							</font>
+							</ul>
+						</div>
+						</nav>
+						<div class="wrapper">
+						<img src="1.jpeg" alt="">
+						</div>
+						
+<p font size="13">
+	<h2>V. Course Learning Outcome</h2>
+	<p>Understanding Application Development And Emerging Technologies</p>
+	<ol type="A">
+		<li>Define Application Development</li>
+		<li>Stages Of Software Development</li>
+		<li>Software Development Approaches</li>
+		<li>Introductory Concept On Web And Mobile Development</li>
+	</ol>
+	<br>
+</li>
+<li><b>Emerging Tecnologies</b></li>
+<ol type="A">
+	<li>Definition of Terms</li>
+	<li>Characteristics of emerging technologies and how these emerge</li>
+	<li>Emerging technologies and their potential application</li>
+	<ol type="number">
+		<li>Education</li>
+		<li>Business</li>
+		<li>Health</li>
+		<li>Society</li>
+	</ol>
+	<li>Definition of Industrial Revolution 4.0</li>
+	<li>Stages of Industrial Revolution 4.0</li>
+	<li>Building blocks of Industry 4.0</li>
+	<li>Component of Smart Factory</li>
+</ol>
+</ol>
+</p>
+</div>
+</body>
+</body>
+<script>
+	function updatemenu() {
+		if (document.getElementById('responsive-menu').checked == true) {
+			document.getElementById('menu').style.borderBottomRightRadius = '0';
+			document.getElementById('menu').style.borderBottomLefttRadius = '0';
+		}else{
+			document.getElementById('menu').style.borderRadius = '7px';
+		}
+	}
+</script>
+				
+</html>
